@@ -121,5 +121,19 @@ public class Main {
             System.out.println("Если ребенку " + childAge6 + " лет, то он может кататься без сопровождения взрослого.");
         }
 
+        System.out.println("Задача 9");
+
+        int one = 5;
+        int two = 10;
+        int free = 15;
+
+        if (one > two && one > free) {
+            System.out.println("Число " + one + " больше всех.");
+        } else if (two > one && two > free) {
+            System.out.println("Число " + two + " больше всех.");
+        } else  if (free > one && free > two) {
+            System.out.println("Число " + free + " больше всех.");
+        }
+
     }
 }
