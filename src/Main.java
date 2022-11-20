@@ -59,6 +59,21 @@ public class Main {
             System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать.");
         }
 
+        System.out.println("Задача 5");
+
+        byte old6 = 24;
+        byte ageLimitSchool1 = 7;
+        byte ageLimitStudent1 = 18;
+        byte ageLimitWorker1 = 24;
+        if (old6 >= ageLimitSchool1 && old6 < ageLimitStudent1) {
+            System.out.println("Ребенок ходит в школу.");
+        }else if (old6 >= ageLimitStudent1 && old6 < ageLimitWorker1) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет.");
+        }else {
+            System.out.println("Человек уже закончил университет и ему пора искать первую работу.");
+        }
+
+
 
     }
 }
