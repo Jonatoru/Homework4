@@ -30,6 +30,25 @@ public class Main {
             System.out.println("Человек уже закончил университет и ему пора искать первую работу.");
         }
 
+        System.out.println("Задача 3");
+
+        byte totalSeatsOnTheTrain = 102;
+        byte seatsOnTheTrain = 60;
+        int standingPlacesOnTheTrain = totalSeatsOnTheTrain - seatsOnTheTrain;
+        byte passengers = 101;
+        if (passengers >= seatsOnTheTrain && passengers < totalSeatsOnTheTrain) {
+            System.out.println("В вагоне есть ещё стоячие места.");
+        }
+        if (passengers >= standingPlacesOnTheTrain && passengers < totalSeatsOnTheTrain) {
+            System.out.println("В вагоне есть ещё сидячие места.");
+        }
+        if (passengers >= totalSeatsOnTheTrain) {
+            System.out.println("Вагон уже полностью забит.");
+        }
+        if (passengers < seatsOnTheTrain && passengers < standingPlacesOnTheTrain) {
+            System.out.println("В вагоне есть свободные и сидячие и стоячие места.");
+        }
+
 
     }
 }
