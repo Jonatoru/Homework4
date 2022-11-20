@@ -49,6 +49,16 @@ public class Main {
             System.out.println("В вагоне есть свободные и сидячие и стоячие места.");
         }
 
+        System.out.println("Задача 4");
+
+        byte old5 = 17;
+        byte ageLimit1 = 18;
+        if (old5 >= ageLimit1) {
+            System.out.println( "Поздравляем вас с совершеннолетием!");
+        } else {
+            System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать.");
+        }
+
 
     }
 }
