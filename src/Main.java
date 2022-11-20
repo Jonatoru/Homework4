@@ -89,6 +89,24 @@ public class Main {
             System.out.println("Вагон уже полностью забит.");
         }
 
+        System.out.println("Задача 7");
+
+        byte childIsAge = 2;
+        byte childIsAge1 = 6;
+        byte childIsAge2 = 7;
+        byte childIsAge3 = 18;
+        byte personIsAge = 24;
+        int currentAge = 25;
+        if (currentAge >= childIsAge && currentAge <= childIsAge1) {
+            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить детский сад.");
+        } else if (currentAge >= childIsAge2 && currentAge <= childIsAge3) {
+            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить в школу.");
+        } else if (currentAge > childIsAge3 && currentAge <= personIsAge) {
+            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить в институт.");
+        } else {
+            System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить на работу.");
+        }
+
 
 
     }
