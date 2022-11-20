@@ -107,7 +107,19 @@ public class Main {
             System.out.println("Если возраст человека равен " + currentAge + " , то ему нужно ходить на работу.");
         }
 
+        System.out.println("Задача 8");
 
+        byte childAge4 = 5;
+        byte childAge5 = 14;
+        byte childAge6 = 14;
+
+        if (childAge6 < childAge4) {
+            System.out.println("Если ребенку " + childAge6 + " лет, то он не может кататься на аттракционе.");
+        } else if (childAge6 > childAge4 && childAge6 < childAge5) {
+            System.out.println("Если ребенку " + childAge6 + " лет, то ребенок может кататься на атракционе, только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        } else {
+            System.out.println("Если ребенку " + childAge6 + " лет, то он может кататься без сопровождения взрослого.");
+        }
 
     }
 }
